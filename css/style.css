@@ -254,11 +254,6 @@ a:hover {
   padding: 0.5rem;
 }
 
-.logo-frame--page:has(.page-logo--support) {
-  width: 4.5rem;
-  height: 4.5rem;
-}
-
 .brand-logo,
 .hero-logo,
 .page-logo {
