@@ -19,8 +19,7 @@ Built with [Eleventy](https://www.11ty.dev/) so the navbar, footer, and layouts 
 lulu-legal-site/
 ├── _includes/
 │   ├── header.njk          # Shared navbar (single source of truth)
-│   ├── footer-legal.njk
-│   ├── footer-landing.njk
+│   ├── footer.njk          # Shared footer (single source of truth)
 │   └── layouts/
 │       ├── landing.njk
 │       └── legal.njk
