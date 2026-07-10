@@ -6,6 +6,12 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.svg");
   eleventyConfig.addPassthroughCopy({ "public": "public" });
 
+  eleventyConfig.addCollection("sitemapPages", (collection) => {
+    return collection.getAll().filter((item) => item.url && !item.data.eleventyExcludeFromCollections);
+  });
+
+  eleventyConfig.addFilter("sitemapDate", (value) => new Date(value).toISOString().slice(0, 10));
+
   return {
     dir: {
       input: "src",
