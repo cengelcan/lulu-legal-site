@@ -2,6 +2,8 @@
   "buildCommand": "npm run build",
   "outputDirectory": "_site",
   "redirects": [
+    { "source": "/app", "destination": "https://apps.apple.com/de/app/lulu-pet-health-journal/id6787669539?l=en-GB", "permanent": true },
+    { "source": "/app/", "destination": "https://apps.apple.com/de/app/lulu-pet-health-journal/id6787669539?l=en-GB", "permanent": true },
     { "source": "/privacy-policy", "destination": "/en/privacy-policy", "permanent": true },
     { "source": "/privacy-policy/", "destination": "/en/privacy-policy/", "permanent": true },
     { "source": "/terms", "destination": "/en/terms", "permanent": true },

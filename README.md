@@ -9,6 +9,7 @@ Built with [Eleventy](https://www.11ty.dev/) so the navbar, footer, and layouts 
 | URL | Description |
 |-----|-------------|
 | `/` | Landing page |
+| `/app/` | Redirects to Lulu on the App Store |
 | `/en/privacy-policy/` | Privacy Policy (English) |
 | `/de/privacy-policy/` | Datenschutzerklärung (Deutsch) |
 | `/tr/privacy-policy/` | Gizlilik Politikası (Türkçe) |
