@@ -1,4 +1,10 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "_site"
+  "outputDirectory": "_site",
+  "redirects": [
+    { "source": "/privacy-policy", "destination": "/en/privacy-policy", "permanent": true },
+    { "source": "/privacy-policy/", "destination": "/en/privacy-policy/", "permanent": true },
+    { "source": "/terms", "destination": "/en/terms", "permanent": true },
+    { "source": "/terms/", "destination": "/en/terms/", "permanent": true }
+  ]
 }

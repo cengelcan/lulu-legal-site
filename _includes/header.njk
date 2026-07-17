@@ -1,21 +1,23 @@
+{% set pageLang = lang or "en" %}
+{% set ui = translations[pageLang] %}
 <header class="site-header">
   <div class="header-inner">
-    <a href="/" class="brand" aria-label="Lulu home">
+    <a href="/" class="brand" aria-label="{{ ui.homeLabel }}">
       <span class="logo-frame logo-frame--header">
         <img class="brand-logo" src="/lulu-logo.svg" alt="" width="30" height="30">
       </span>
       <span class="site-title">Lulu</span>
     </a>
-    <nav class="site-nav" aria-label="Main">
+    <nav class="site-nav" aria-label="{{ ui.mainNavLabel }}">
       <ul class="site-nav__list">
         <li>
-          <a href="/privacy-policy/" class="site-nav__link"{% if navActive == "privacy" %} aria-current="page"{% endif %}>Privacy Policy</a>
+          <a href="/{{ pageLang }}/privacy-policy/" class="site-nav__link"{% if navActive == "privacy" %} aria-current="page"{% endif %}>{{ ui.privacy }}</a>
         </li>
         <li>
-          <a href="/terms/" class="site-nav__link"{% if navActive == "terms" %} aria-current="page"{% endif %}>Terms of Service</a>
+          <a href="/{{ pageLang }}/terms/" class="site-nav__link"{% if navActive == "terms" %} aria-current="page"{% endif %}>{{ ui.terms }}</a>
         </li>
         <li>
-          <a href="/support/" class="site-nav__link"{% if navActive == "support" %} aria-current="page"{% endif %}>Support</a>
+          <a href="/support/" class="site-nav__link"{% if navActive == "support" %} aria-current="page"{% endif %}>{{ ui.support }}</a>
         </li>
       </ul>
     </nav>

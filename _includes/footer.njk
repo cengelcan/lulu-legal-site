@@ -1,26 +1,28 @@
+{% set pageLang = lang or "en" %}
+{% set ui = translations[pageLang] %}
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="/" class="brand brand--footer" aria-label="Lulu home">
+        <a href="/" class="brand brand--footer" aria-label="{{ ui.homeLabel }}">
           <span class="logo-frame logo-frame--header">
             <img class="brand-logo" src="/lulu-logo.svg" alt="" width="30" height="30">
           </span>
           <span class="site-title">Lulu</span>
         </a>
-        <p class="footer-tagline">A calm journal for everyday pet care.</p>
+        <p class="footer-tagline">{{ ui.tagline }}</p>
       </div>
 
-      <nav class="footer-nav" aria-label="Footer">
+      <nav class="footer-nav" aria-label="{{ ui.footerNavLabel }}">
         <ul>
-          <li><a href="/privacy-policy/">Privacy Policy</a></li>
-          <li><a href="/terms/">Terms of Service</a></li>
-          <li><a href="/support/">Support</a></li>
+          <li><a href="/{{ pageLang }}/privacy-policy/">{{ ui.privacy }}</a></li>
+          <li><a href="/{{ pageLang }}/terms/">{{ ui.terms }}</a></li>
+          <li><a href="/support/">{{ ui.support }}</a></li>
           <li><a href="mailto:support@lulu.pet">support@lulu.pet</a></li>
         </ul>
       </nav>
     </div>
 
-    <p class="footer-copy">&copy; 2026 Lulu. All rights reserved.</p>
+    <p class="footer-copy">{{ ui.copyright }}</p>
   </div>
 </footer>

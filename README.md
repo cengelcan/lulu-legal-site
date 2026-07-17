@@ -9,8 +9,14 @@ Built with [Eleventy](https://www.11ty.dev/) so the navbar, footer, and layouts 
 | URL | Description |
 |-----|-------------|
 | `/` | Landing page |
-| `/privacy-policy/` | Privacy Policy |
-| `/terms/` | Terms of Service |
+| `/en/privacy-policy/` | Privacy Policy (English) |
+| `/de/privacy-policy/` | Datenschutzerklärung (Deutsch) |
+| `/tr/privacy-policy/` | Gizlilik Politikası (Türkçe) |
+| `/en/terms/` | Terms of Service (English) |
+| `/de/terms/` | Nutzungsbedingungen (Deutsch) |
+| `/tr/terms/` | Hizmet Koşulları (Türkçe) |
+| `/privacy-policy/` | Redirects to the English Privacy Policy |
+| `/terms/` | Redirects to the English Terms of Service |
 | `/support/` | Support & contact |
 
 ## Project structure
@@ -25,8 +31,12 @@ lulu-legal-site/
 │       └── legal.njk
 ├── src/                    # Page content (edit these)
 │   ├── index.njk
-│   ├── privacy-policy.njk
-│   ├── terms.njk
+│   ├── privacy-policy.njk  # English source text
+│   ├── terms.njk           # English source text
+│   ├── de/                 # German legal translations
+│   ├── tr/                 # Turkish legal translations
+│   └── _data/
+│       └── translations.json # Shared localized UI copy
 │   └── support.njk
 ├── css/style.css
 ├── images/
@@ -68,8 +78,11 @@ vercel --prod
 |----------------|-------|
 | Navbar links / logo | `_includes/header.njk` |
 | Landing page sections | `src/index.njk` |
-| Privacy Policy body | `src/privacy-policy.njk` |
-| Terms body | `src/terms.njk` |
+| English Privacy Policy body | `src/privacy-policy.njk` |
+| English Terms body | `src/terms.njk` |
+| German legal bodies | `src/de/` |
+| Turkish legal bodies | `src/tr/` |
+| Shared legal UI translations | `src/_data/translations.json` |
 | Support body | `src/support.njk` |
 | Shared styles | `css/style.css` |
 

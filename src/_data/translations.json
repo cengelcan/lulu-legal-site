@@ -1,0 +1,41 @@
+{
+  "en": {
+    "homeLabel": "Lulu home",
+    "mainNavLabel": "Main navigation",
+    "footerNavLabel": "Footer navigation",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "support": "Support",
+    "tagline": "A calm journal for everyday pet care.",
+    "copyright": "© 2026 Lulu. All rights reserved.",
+    "languageLabel": "Language",
+    "lastUpdated": "Last updated: July 2026",
+    "logoAlt": "Lulu logo"
+  },
+  "de": {
+    "homeLabel": "Lulu Startseite",
+    "mainNavLabel": "Hauptnavigation",
+    "footerNavLabel": "Fußzeilennavigation",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "support": "Support",
+    "tagline": "Ein ruhiges Tagebuch für die tägliche Haustierpflege.",
+    "copyright": "© 2026 Lulu. Alle Rechte vorbehalten.",
+    "languageLabel": "Sprache",
+    "lastUpdated": "Zuletzt aktualisiert: Juli 2026",
+    "logoAlt": "Lulu-Logo"
+  },
+  "tr": {
+    "homeLabel": "Lulu ana sayfa",
+    "mainNavLabel": "Ana menü",
+    "footerNavLabel": "Alt bilgi menüsü",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Koşulları",
+    "support": "Destek",
+    "tagline": "Günlük evcil hayvan bakımı için sakin bir günlük.",
+    "copyright": "© 2026 Lulu. Tüm hakları saklıdır.",
+    "languageLabel": "Dil",
+    "lastUpdated": "Son güncelleme: Temmuz 2026",
+    "logoAlt": "Lulu logosu"
+  }
+}
