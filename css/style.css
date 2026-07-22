@@ -1078,6 +1078,7 @@ body.landing .container--landing {
 
 .features-section {
   background-color: var(--bg-warm);
+  scroll-margin-top: 7rem;
 }
 
 .feature-grid {
@@ -1151,6 +1152,26 @@ body.landing .container--landing {
   scroll-snap-align: center;
 }
 
+.preview-grid figure.phone-mockup {
+  margin: 0;
+}
+
+.phone-mockup figcaption {
+  width: max-content;
+  max-width: 100%;
+  margin: 1rem auto 0;
+  padding: 0.4rem 0.75rem;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-pill);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+}
+
 .preview-grid .phone-mockup--preview .phone-mockup__frame {
   width: min(200px, 52vw);
 }
@@ -1167,6 +1188,71 @@ body.landing .container--landing {
 .preview-grid--4 .phone-mockup--preview .phone-mockup__frame,
 .preview-grid--4 .phone-mockup--featured .phone-mockup__frame {
   width: min(210px, 54vw);
+}
+
+/* Latest update */
+
+.home-update-section {
+  background: var(--bg-warm-alt);
+}
+
+.home-update-card {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background:
+    radial-gradient(circle at 100% 0%, rgba(169, 152, 214, 0.2), transparent 42%),
+    var(--bg);
+  border: 1px solid var(--brand-border);
+  border-radius: calc(var(--radius-xl) + 4px);
+  box-shadow: var(--shadow-soft);
+}
+
+.home-update-card__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.home-update-card__meta .eyebrow {
+  margin: 0;
+}
+
+.home-update-card__meta time {
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.home-update-card h2 {
+  margin: 0 0 0.875rem;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+}
+
+.home-update-card h2 span {
+  color: var(--brand-dark);
+}
+
+.home-update-card > p {
+  max-width: 48rem;
+  margin-bottom: 1.25rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+.home-update-card > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--brand-dark);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-update-card > a:hover {
+  color: var(--text-primary);
 }
 
 /* Why Lulu */
@@ -1316,6 +1402,44 @@ body.landing .container--landing {
   color: var(--brand-dark);
 }
 
+/* Bottom download prompt */
+
+.bottom-cta-section {
+  padding-bottom: 4rem;
+  background: var(--bg-warm);
+}
+
+.bottom-cta-panel {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+  padding: clamp(1.75rem, 5vw, 3rem);
+  color: rgba(255, 255, 255, 0.78);
+  background:
+    radial-gradient(circle at 90% 10%, rgba(169, 152, 214, 0.42), transparent 38%),
+    linear-gradient(135deg, #242424 0%, #4d426e 100%);
+  border: 1px solid rgba(169, 152, 214, 0.35);
+  border-radius: calc(var(--radius-xl) + 6px);
+  box-shadow: 0 18px 48px rgba(77, 66, 110, 0.18);
+}
+
+.bottom-cta-panel h2 {
+  margin: 0 0 0.625rem;
+  color: #fff;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+}
+
+.bottom-cta-panel p {
+  max-width: 38rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.bottom-cta-panel .app-store-cta {
+  justify-self: start;
+  background: #000;
+}
+
 /* Footer */
 
 .site-footer {
@@ -1404,6 +1528,10 @@ body.landing .container--landing {
 
   .footer-copy {
     text-align: left;
+  }
+
+  .bottom-cta-panel {
+    grid-template-columns: minmax(0, 1fr) auto;
   }
 }
 

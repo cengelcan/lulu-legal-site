@@ -17,10 +17,7 @@
     <nav class="site-nav" aria-label="{{ ui.mainNavLabel }}">
       <ul class="site-nav__list">
         <li>
-          <a href="/{{ pageLang }}/privacy-policy/" class="site-nav__link"{% if navActive == "privacy" %} aria-current="page"{% endif %}>{{ ui.privacy }}</a>
-        </li>
-        <li>
-          <a href="/{{ pageLang }}/terms/" class="site-nav__link"{% if navActive == "terms" %} aria-current="page"{% endif %}>{{ ui.terms }}</a>
+          <a href="/{{ pageLang }}/#features" class="site-nav__link">{{ ui.features }}</a>
         </li>
         <li>
           <a href="/{{ pageLang }}/updates/" class="site-nav__link"{% if navActive == "updates" %} aria-current="page"{% endif %}>{{ ui.updates }}</a>

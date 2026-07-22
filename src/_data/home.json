@@ -1,10 +1,10 @@
 {
   "en": {
-    "title": "Lulu: Your Pet's Health, Beautifully Organized",
-    "description": "Lulu helps you track your pet's daily mood, meals, symptoms, weight, reminders, and health history in one calm and simple journal.",
-    "eyebrow": "Pet Health Journal",
-    "heading": "Your pet's health, beautifully organized.",
-    "lead": "Lulu helps you track your pet's daily mood, meals, symptoms, weight, reminders, and health history in one calm and simple journal.",
+    "title": "Lulu: Everyday Pet Care, Beautifully Organized",
+    "description": "Lulu brings daily care, reminders, health records, and family sharing together on iPhone and iPad.",
+    "eyebrow": "Everyday pet care, organized",
+    "heading": "Everything your pet needs, all in one calm place.",
+    "lead": "Bring daily care, reminders, health records, and family sharing together in one beautifully organized app for iPhone and iPad.",
     "downloadAria": "Download Lulu on the App Store",
     "downloadEyebrow": "Download on the",
     "downloadTitle": "App Store",
@@ -13,10 +13,10 @@
     "screenshots": {
       "hero": { "src": "/images/screenshots/en/home.png", "alt": "Lulu home screen showing the next care item and a health overview" },
       "previews": [
-        { "src": "/images/screenshots/en/check-in.png", "alt": "Lulu daily check-in screen showing completed health checks" },
-        { "src": "/images/screenshots/en/records.png", "alt": "Lulu records screen for vet visits, vaccines, medication, symptoms, weight, surgery, and test results" },
-        { "src": "/images/screenshots/en/reminders.png", "alt": "Lulu reminders screen showing upcoming and completed care reminders" },
-        { "src": "/images/screenshots/en/family.png", "alt": "Lulu Family screen showing shared pets and family members" }
+        { "src": "/images/screenshots/en/check-in.png", "alt": "Lulu daily check-in screen showing completed health checks", "label": "Daily Check-In" },
+        { "src": "/images/screenshots/en/records.png", "alt": "Lulu records screen for vet visits, vaccines, medication, symptoms, weight, surgery, and test results", "label": "Health Records" },
+        { "src": "/images/screenshots/en/reminders.png", "alt": "Lulu reminders screen showing upcoming and completed care reminders", "label": "Reminders" },
+        { "src": "/images/screenshots/en/family.png", "alt": "Lulu Family screen showing shared pets and family members", "label": "Family Sharing" }
       ]
     },
     "featuresTitle": "Everything you need for everyday pet care",
@@ -31,6 +31,10 @@
     ],
     "previewTitle": "A simple journal for everyday pet care.",
     "previewIntro": "Log small changes before they become big concerns.",
+    "updatesEyebrow": "Latest update",
+    "updatesLink": "See everything new in Lulu",
+    "bottomCtaTitle": "Keep every part of their care close.",
+    "bottomCtaText": "Download Lulu and give everyday pet care one calm, organized home.",
     "previewAlts": [
       "Lulu health records screen for vet visits, vaccines, symptoms, and weight",
       "Lulu My Pets screen showing multiple cat and dog profiles",
@@ -56,11 +60,11 @@
     ]
   },
   "de": {
-    "title": "Lulu: Die Gesundheit deines Haustiers, übersichtlich organisiert",
-    "description": "Mit Lulu behältst du Stimmung, Mahlzeiten, Symptome, Gewicht, Erinnerungen und den Gesundheitsverlauf deines Haustiers in einem ruhigen, einfachen Tagebuch im Blick.",
-    "eyebrow": "Gesundheitstagebuch für Haustiere",
-    "heading": "Die Gesundheit deines Haustiers, schön organisiert.",
-    "lead": "Mit Lulu behältst du Stimmung, Mahlzeiten, Symptome, Gewicht, Erinnerungen und den Gesundheitsverlauf deines Haustiers in einem ruhigen, einfachen Tagebuch im Blick.",
+    "title": "Lulu: Tägliche Haustierpflege, übersichtlich organisiert",
+    "description": "Lulu vereint tägliche Pflege, Erinnerungen, Gesundheitseinträge und Familienfreigabe auf iPhone und iPad.",
+    "eyebrow": "Tägliche Haustierpflege, organisiert",
+    "heading": "Alles, was dein Haustier braucht – an einem ruhigen Ort.",
+    "lead": "Vereine tägliche Pflege, Erinnerungen, Gesundheitseinträge und Familienfreigabe in einer übersichtlichen App für iPhone und iPad.",
     "downloadAria": "Lulu im App Store laden",
     "downloadEyebrow": "Laden im",
     "downloadTitle": "App Store",
@@ -69,10 +73,10 @@
     "screenshots": {
       "hero": { "src": "/images/screenshots/de/home.png", "alt": "Deutsche Lulu-Startseite mit der nächsten Pflegeaufgabe und Gesundheitsübersicht" },
       "previews": [
-        { "src": "/images/screenshots/de/check-in.png", "alt": "Deutscher Lulu-Check-In mit abgeschlossenen Gesundheitschecks" },
-        { "src": "/images/screenshots/de/records.png", "alt": "Deutsche Lulu-Einträge für Tierarzt, Impfungen, Medizin, Symptome, Gewicht, Operationen und Befunde" },
-        { "src": "/images/screenshots/de/reminders.png", "alt": "Deutsche Lulu-Erinnerungen mit anstehenden und abgeschlossenen Pflegeaufgaben" },
-        { "src": "/images/screenshots/de/family.png", "alt": "Deutsche Lulu-Familienansicht mit geteilten Haustieren und Mitgliedern" }
+        { "src": "/images/screenshots/de/check-in.png", "alt": "Deutscher Lulu-Check-In mit abgeschlossenen Gesundheitschecks", "label": "Täglicher Check-In" },
+        { "src": "/images/screenshots/de/records.png", "alt": "Deutsche Lulu-Einträge für Tierarzt, Impfungen, Medizin, Symptome, Gewicht, Operationen und Befunde", "label": "Gesundheitseinträge" },
+        { "src": "/images/screenshots/de/reminders.png", "alt": "Deutsche Lulu-Erinnerungen mit anstehenden und abgeschlossenen Pflegeaufgaben", "label": "Erinnerungen" },
+        { "src": "/images/screenshots/de/family.png", "alt": "Deutsche Lulu-Familienansicht mit geteilten Haustieren und Mitgliedern", "label": "Familienfreigabe" }
       ]
     },
     "featuresTitle": "Alles für die tägliche Pflege deines Haustiers",
@@ -87,6 +91,10 @@
     ],
     "previewTitle": "Ein einfaches Tagebuch für die tägliche Haustierpflege.",
     "previewIntro": "Halte kleine Veränderungen fest, bevor daraus große Sorgen werden.",
+    "updatesEyebrow": "Letztes Update",
+    "updatesLink": "Alle Neuigkeiten in Lulu ansehen",
+    "bottomCtaTitle": "Behalte jeden Teil der Pflege im Blick.",
+    "bottomCtaText": "Lade Lulu und gib der täglichen Haustierpflege einen ruhigen, organisierten Ort.",
     "previewAlts": [
       "Lulu-Gesundheitseinträge für Tierarztbesuche, Impfungen, Symptome und Gewicht",
       "Lulu-Ansicht Meine Haustiere mit mehreren Katzen- und Hundeprofilen",
@@ -112,11 +120,11 @@
     ]
   },
   "tr": {
-    "title": "Lulu: Evcil Hayvanınızın Sağlığı, Düzenli ve Anlaşılır",
-    "description": "Lulu; evcil hayvanınızın günlük ruh hâlini, öğünlerini, belirtilerini, kilosunu, hatırlatıcılarını ve sağlık geçmişini sakin ve sade bir günlükte takip etmenize yardımcı olur.",
-    "eyebrow": "Evcil Hayvan Sağlık Günlüğü",
-    "heading": "Evcil hayvanınızın sağlığı, özenle düzenlendi.",
-    "lead": "Lulu; evcil hayvanınızın günlük ruh hâlini, öğünlerini, belirtilerini, kilosunu, hatırlatıcılarını ve sağlık geçmişini sakin ve sade bir günlükte takip etmenize yardımcı olur.",
+    "title": "Lulu: Günlük Evcil Hayvan Bakımı, Özenle Düzenlendi",
+    "description": "Lulu; günlük bakımı, hatırlatıcıları, sağlık kayıtlarını ve aile paylaşımını iPhone ve iPad’de bir araya getirir.",
+    "eyebrow": "Günlük evcil hayvan bakımı, düzenli",
+    "heading": "Evcil hayvanınızın ihtiyaç duyduğu her şey, sakin bir yerde.",
+    "lead": "Günlük bakımı, hatırlatıcıları, sağlık kayıtlarını ve aile paylaşımını iPhone ve iPad için özenle düzenlenmiş tek bir uygulamada bir araya getirin.",
     "downloadAria": "Lulu’yu App Store’dan indirin",
     "downloadEyebrow": "Şuradan indirin:",
     "downloadTitle": "App Store",
@@ -125,10 +133,10 @@
     "screenshots": {
       "hero": { "src": "/images/screenshots/tr/home.png", "alt": "Sıradaki bakım işini ve sağlık özetini gösteren Türkçe Lulu ana sayfası" },
       "previews": [
-        { "src": "/images/screenshots/tr/check-in.png", "alt": "Tamamlanan günlük sağlık kontrollerini gösteren Türkçe Lulu Check-In ekranı" },
-        { "src": "/images/screenshots/tr/records.png", "alt": "Veteriner, aşı, ilaç, semptom, kilo, operasyon ve tetkik kayıtlarını gösteren Türkçe Lulu Kayıtlar ekranı" },
-        { "src": "/images/screenshots/tr/reminders.png", "alt": "Yaklaşan ve tamamlanan bakım hatırlatıcılarını gösteren Türkçe Lulu Hatırlatıcılar ekranı" },
-        { "src": "/images/screenshots/tr/family.png", "alt": "Paylaşılan petleri ve aile üyelerini gösteren Türkçe Lulu Family ekranı" }
+        { "src": "/images/screenshots/tr/check-in.png", "alt": "Tamamlanan günlük sağlık kontrollerini gösteren Türkçe Lulu Check-In ekranı", "label": "Günlük Check-In" },
+        { "src": "/images/screenshots/tr/records.png", "alt": "Veteriner, aşı, ilaç, semptom, kilo, operasyon ve tetkik kayıtlarını gösteren Türkçe Lulu Kayıtlar ekranı", "label": "Sağlık Kayıtları" },
+        { "src": "/images/screenshots/tr/reminders.png", "alt": "Yaklaşan ve tamamlanan bakım hatırlatıcılarını gösteren Türkçe Lulu Hatırlatıcılar ekranı", "label": "Hatırlatıcılar" },
+        { "src": "/images/screenshots/tr/family.png", "alt": "Paylaşılan petleri ve aile üyelerini gösteren Türkçe Lulu Family ekranı", "label": "Aile Paylaşımı" }
       ]
     },
     "featuresTitle": "Günlük evcil hayvan bakımı için ihtiyacınız olan her şey",
@@ -143,6 +151,10 @@
     ],
     "previewTitle": "Günlük evcil hayvan bakımı için sade bir günlük.",
     "previewIntro": "Küçük değişiklikleri büyük endişelere dönüşmeden kaydedin.",
+    "updatesEyebrow": "Son güncelleme",
+    "updatesLink": "Lulu’daki tüm yenilikleri görün",
+    "bottomCtaTitle": "Bakımın her ayrıntısı elinizin altında olsun.",
+    "bottomCtaText": "Lulu’yu indirin ve günlük evcil hayvan bakımını sakin, düzenli bir yerde yönetin.",
     "previewAlts": [
       "Veteriner ziyaretleri, aşılar, belirtiler ve kilo için Lulu sağlık kayıtları ekranı",
       "Birden fazla kedi ve köpek profilini gösteren Lulu Evcil Hayvanlarım ekranı",
