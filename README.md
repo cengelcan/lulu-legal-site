@@ -9,6 +9,7 @@ Built with [Eleventy](https://www.11ty.dev/) so the navbar, footer, and layouts 
 | URL | Description |
 |-----|-------------|
 | `/` | Landing page |
+| `/en/`, `/de/`, `/tr/` | Localized landing pages |
 | `/app/` | Redirects to Lulu on the App Store |
 | `/en/privacy-policy/` | Privacy Policy (English) |
 | `/de/privacy-policy/` | Datenschutzerklärung (Deutsch) |
@@ -19,6 +20,9 @@ Built with [Eleventy](https://www.11ty.dev/) so the navbar, footer, and layouts 
 | `/privacy-policy/` | Redirects to the English Privacy Policy |
 | `/terms/` | Redirects to the English Terms of Service |
 | `/support/` | Support & contact |
+| `/en/support/`, `/de/support/`, `/tr/support/` | Localized support pages |
+| `/en/updates/`, `/de/updates/`, `/tr/updates/` | Localized release notes |
+| `/updates/` | Redirects to the English release notes |
 
 ## Project structure
 
@@ -37,7 +41,10 @@ lulu-legal-site/
 │   ├── de/                 # German legal translations
 │   ├── tr/                 # Turkish legal translations
 │   └── _data/
-│       └── translations.json # Shared localized UI copy
+│       ├── translations.json # Shared localized UI copy
+│       ├── home.json         # Localized landing-page content
+│       ├── support.json      # Localized support content
+│       └── updates.json      # Localized release notes
 │   └── support.njk
 ├── css/style.css
 ├── images/
@@ -78,13 +85,14 @@ vercel --prod
 | What to change | Where |
 |----------------|-------|
 | Navbar links / logo | `_includes/header.njk` |
-| Landing page sections | `src/index.njk` |
+| Landing page content | `src/_data/home.json` |
 | English Privacy Policy body | `src/privacy-policy.njk` |
 | English Terms body | `src/terms.njk` |
 | German legal bodies | `src/de/` |
 | Turkish legal bodies | `src/tr/` |
-| Shared legal UI translations | `src/_data/translations.json` |
-| Support body | `src/support.njk` |
+| Shared UI translations | `src/_data/translations.json` |
+| Support content | `src/_data/support.json` |
+| Release notes | `src/_data/updates.json` |
 | Shared styles | `css/style.css` |
 
 When updating Privacy Policy or Terms, change the "Last updated" date in the page content.

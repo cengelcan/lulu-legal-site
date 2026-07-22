@@ -1,0 +1,72 @@
+{% set copy = home[pageLang] %}
+<section class="landing-section hero-section" aria-labelledby="hero-heading">
+  <div class="container container--landing">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <p class="eyebrow">{{ copy.eyebrow }}</p>
+        <h1 id="hero-heading">{{ copy.heading }}</h1>
+        <p class="hero-lead">{{ copy.lead }}</p>
+        <div class="hero-cta">
+          <a class="app-store-cta" href="https://apps.apple.com/us/app/lulu-pet-health-journal/id6787669539" target="_blank" rel="noopener noreferrer" aria-label="{{ copy.downloadAria }}">
+            <svg class="app-store-cta__icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.7 12.8c0-3 2.5-4.5 2.6-4.6a5.6 5.6 0 0 0-4.4-2.4c-1.9-.2-3.7 1.1-4.6 1.1-1 0-2.4-1.1-4-1a5.9 5.9 0 0 0-5 3c-2.1 3.7-.5 9.2 1.5 12.2 1 1.5 2.2 3.1 3.8 3 1.5-.1 2.1-1 4-1s2.4 1 4 1c1.7 0 2.8-1.5 3.8-3a13.3 13.3 0 0 0 1.7-3.5 5.3 5.3 0 0 1-3.4-4.8ZM15.7 3.9A5.3 5.3 0 0 0 17 0a5.5 5.5 0 0 0-3.6 1.9 5.1 5.1 0 0 0-1.3 3.8 4.6 4.6 0 0 0 3.6-1.8Z"/></svg>
+            <span class="app-store-cta__text"><span class="app-store-cta__eyebrow">{{ copy.downloadEyebrow }}</span><span class="app-store-cta__title">{{ copy.downloadTitle }}</span></span>
+          </a>
+        </div>
+        <p class="trust-note"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>{{ copy.trust }}</p>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup phone-mockup--hero"><div class="phone-mockup__frame"><div class="phone-mockup__notch" aria-hidden="true"></div><img class="phone-mockup__screen" src="{{ copy.screenshots.hero.src }}" alt="{{ copy.screenshots.hero.alt }}" width="736" height="1600" loading="eager"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="landing-section features-section" aria-labelledby="features-heading">
+  <div class="container container--landing">
+    <div class="section-intro"><h2 id="features-heading">{{ copy.featuresTitle }}</h2><p>{{ copy.featuresIntro }}</p></div>
+    <div class="feature-grid">
+      {% for feature in copy.features %}
+      <article class="feature-card">
+        <div class="feature-card__icon" aria-hidden="true">
+          {% if loop.index == 1 %}<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          {% elif loop.index == 2 %}<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+          {% elif loop.index == 3 %}<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M3 3v18h18"/><path d="M7 16l4-6 4 3 5-7"/></svg>
+          {% elif loop.index == 4 %}<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          {% elif loop.index == 5 %}<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 15l2 2 4-4"/></svg>
+          {% else %}<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M14 20c0-2.2 1.8-4 4-4"/></svg>{% endif %}
+        </div>
+        <h3>{{ feature.title }}</h3><p>{{ feature.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="landing-section preview-section" aria-labelledby="preview-heading">
+  <div class="container container--landing">
+    <div class="section-intro section-intro--center"><h2 id="preview-heading">{{ copy.previewTitle }}</h2><p>{{ copy.previewIntro }}</p></div>
+    <div class="preview-grid preview-grid--{{ copy.screenshots.previews | length }}">
+      {% for screenshot in copy.screenshots.previews %}
+      <div class="phone-mockup phone-mockup--preview{% if screenshot.featured %} phone-mockup--featured{% endif %}"><div class="phone-mockup__frame"><div class="phone-mockup__notch" aria-hidden="true"></div><img class="phone-mockup__screen" src="{{ screenshot.src }}" alt="{{ screenshot.alt }}" width="736" height="1600" loading="lazy"></div></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="landing-section why-section" aria-labelledby="why-heading">
+  <div class="container container--landing"><div class="why-panel">
+    <div class="section-intro"><h2 id="why-heading">{{ copy.whyTitle }}</h2><p>{{ copy.whyIntro }}</p></div>
+    <ul class="why-list">{% for reason in copy.reasons %}<li><span class="why-list__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg></span><div><strong>{{ reason.title }}</strong><p>{{ reason.text }}</p></div></li>{% endfor %}</ul>
+  </div></div>
+</section>
+
+<section class="landing-section disclaimer-section" aria-labelledby="disclaimer-heading"><div class="container container--landing"><div class="disclaimer disclaimer--landing" id="disclaimer-heading"><strong>{{ copy.important }}</strong> {{ copy.disclaimer }}</div></div></section>
+
+<section class="landing-section faq-section" aria-labelledby="faq-heading">
+  <div class="container container--landing">
+    <div class="section-intro section-intro--center"><h2 id="faq-heading">{{ copy.faqTitle }}</h2></div>
+    <div class="faq-list">
+      {% for faq in copy.faqs %}<details class="faq-item"><summary>{{ faq.question }}</summary><p>{{ faq.answer }}{% if faq.linkText %} <a href="/{{ pageLang }}/privacy-policy/">{{ faq.linkText }}</a>{% endif %}{% if faq.appLinkText %} <a href="https://apps.apple.com/us/app/lulu-pet-health-journal/id6787669539" target="_blank" rel="noopener noreferrer">{{ faq.appLinkText }}</a>{% endif %}</p></details>{% endfor %}
+    </div>
+  </div>
+</section>

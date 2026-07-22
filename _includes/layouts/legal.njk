@@ -1,5 +1,6 @@
 {% set pageLang = lang or "en" %}
 {% set ui = translations[pageLang] %}
+{% set currentSlug = pageSlug or legalSlug %}
 <!DOCTYPE html>
 <html lang="{{ pageLang }}">
 <head>
@@ -7,23 +8,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} | Lulu: Pet Health Journal</title>
   <meta name="description" content="{{ description }}">
-  <link rel="canonical" href="{{ site.url }}/{{ pageLang }}/{{ legalSlug }}/">
-  <link rel="alternate" hreflang="en" href="{{ site.url }}/en/{{ legalSlug }}/">
-  <link rel="alternate" hreflang="de" href="{{ site.url }}/de/{{ legalSlug }}/">
-  <link rel="alternate" hreflang="tr" href="{{ site.url }}/tr/{{ legalSlug }}/">
-  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/en/{{ legalSlug }}/">
+  <link rel="canonical" href="{{ site.url }}{{ canonicalPath or ('/' + pageLang + '/' + currentSlug + '/') }}">
+  <link rel="alternate" hreflang="en" href="{{ site.url }}/en/{{ currentSlug }}/">
+  <link rel="alternate" hreflang="de" href="{{ site.url }}/de/{{ currentSlug }}/">
+  <link rel="alternate" hreflang="tr" href="{{ site.url }}/tr/{{ currentSlug }}/">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/en/{{ currentSlug }}/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
+<body class="{{ bodyClass or '' }}">
   {% include "header.njk" %}
   <main>
-    <nav class="language-switcher" aria-label="{{ ui.languageLabel }}">
-      <span class="language-switcher__label">{{ ui.languageLabel }}:</span>
-      <a href="/en/{{ legalSlug }}/" lang="en" hreflang="en"{% if pageLang == "en" %} aria-current="page"{% endif %}>EN</a>
-      <a href="/de/{{ legalSlug }}/" lang="de" hreflang="de"{% if pageLang == "de" %} aria-current="page"{% endif %}>DE</a>
-      <a href="/tr/{{ legalSlug }}/" lang="tr" hreflang="tr"{% if pageLang == "tr" %} aria-current="page"{% endif %}>TR</a>
-    </nav>
     {{ content | safe }}
   </main>
   {% include "footer.njk" %}

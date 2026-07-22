@@ -1,0 +1,131 @@
+{
+  "en": {
+    "title": "Updates",
+    "description": "See what's new in Lulu: Pet Health Journal.",
+    "eyebrow": "Release notes",
+    "heading": "What’s new in Lulu",
+    "intro": "Follow the latest features, improvements, and fixes in Lulu.",
+    "versions": [
+      {
+        "version": "Lulu 1.2",
+        "title": "More organized, more accessible",
+        "date": "July 21, 2026",
+        "datetime": "2026-07-21",
+        "summary": "Lulu 1.2 has been redesigned from the ground up to make pet care easier to manage. With the new Care hub, an improved home screen, and an iPad-ready design, everything you need is now more organized and accessible.",
+        "changes": [
+          "A new Care hub that brings daily actions, reminders, and health records together",
+          "A redesigned home screen that lets you see your pet’s current status faster",
+          "An improved responsive design for iPhone and iPad",
+          "Easier access to Family Sharing from Profile",
+          "Higher contrast, improved VoiceOver support, and larger touch targets",
+          "A new monthly subscription option for Lulu Plus",
+          "More consistent loading, error, and empty states",
+          "General performance, security, and user experience improvements"
+        ]
+      },
+      {
+        "version": "Lulu 1.1",
+        "title": "Lulu now speaks Turkish",
+        "date": "July 17, 2026",
+        "datetime": "2026-07-17",
+        "summary": "Lulu 1.1 adds full Turkish language support to the app. From onboarding to everyday use, many areas are now more reliable and easier to understand.",
+        "changes": [
+          "Full Turkish language support throughout the app",
+          "App Store support in English, German, and Turkish",
+          "Clearer descriptions for Lulu Plus plans and billing information",
+          "Privacy Policy and Terms of Service that open in the selected language",
+          "Support for both commas and periods in decimal weight values",
+          "Fixes for notification permission and first-pet creation flows",
+          "Consistency improvements for dark mode and the home screen",
+          "General stability and user experience improvements"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "title": "Neuigkeiten",
+    "description": "Entdecke neue Funktionen und Verbesserungen in Lulu: Pet Health Journal.",
+    "eyebrow": "Versionshinweise",
+    "heading": "Neu in Lulu",
+    "intro": "Hier findest du die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Lulu.",
+    "versions": [
+      {
+        "version": "Lulu 1.2",
+        "title": "Übersichtlicher und zugänglicher",
+        "date": "21. Juli 2026",
+        "datetime": "2026-07-21",
+        "summary": "Lulu 1.2 wurde umfassend überarbeitet, damit du die Pflege deines Haustiers noch einfacher organisieren kannst. Mit dem neuen Bereich „Pflege“, einer verbesserten Startseite und einem iPad-optimierten Design ist jetzt alles übersichtlicher und leichter erreichbar.",
+        "changes": [
+          "Ein neuer Bereich „Pflege“, der tägliche Aufgaben, Erinnerungen und Gesundheitseinträge zusammenführt",
+          "Eine neu gestaltete Startseite, auf der du den aktuellen Zustand deines Haustiers schneller erkennst",
+          "Ein verbessertes responsives Design für iPhone und iPad",
+          "Einfacherer Zugriff auf die Familienfreigabe über das Profil",
+          "Höherer Kontrast, verbesserte VoiceOver-Unterstützung und größere Touch-Ziele",
+          "Eine neue monatliche Abonnementoption für Lulu Plus",
+          "Einheitlichere Lade-, Fehler- und Leerzustände",
+          "Allgemeine Verbesserungen bei Leistung, Sicherheit und Benutzerfreundlichkeit"
+        ]
+      },
+      {
+        "version": "Lulu 1.1",
+        "title": "Lulu spricht jetzt Türkisch",
+        "date": "17. Juli 2026",
+        "datetime": "2026-07-17",
+        "summary": "Mit Lulu 1.1 wurde die App vollständig auf Türkisch verfügbar. Von der ersten Einrichtung bis zur täglichen Nutzung sind viele Bereiche jetzt zuverlässiger und verständlicher.",
+        "changes": [
+          "Vollständige türkische Sprachunterstützung in der gesamten App",
+          "App-Store-Unterstützung auf Englisch, Deutsch und Türkisch",
+          "Klarere Beschreibungen der Lulu-Plus-Tarife und Abrechnungsinformationen",
+          "Datenschutzerklärung und Nutzungsbedingungen öffnen sich in der ausgewählten Sprache",
+          "Unterstützung für Komma und Punkt bei dezimalen Gewichtsangaben",
+          "Fehlerbehebungen bei der Benachrichtigungsberechtigung und beim Anlegen des ersten Haustiers",
+          "Konsistenzverbesserungen für den Dunkelmodus und die Startseite",
+          "Allgemeine Verbesserungen bei Stabilität und Benutzerfreundlichkeit"
+        ]
+      }
+    ]
+  },
+  "tr": {
+    "title": "Güncellemeler",
+    "description": "Lulu: Evcil Hayvan Sağlık Günlüğü’ndeki yenilikleri keşfedin.",
+    "eyebrow": "Sürüm notları",
+    "heading": "Lulu’daki yenilikler",
+    "intro": "Lulu’ya eklenen son özellikleri, iyileştirmeleri ve düzeltmeleri takip edin.",
+    "versions": [
+      {
+        "version": "Lulu 1.2",
+        "title": "Daha düzenli, daha erişilebilir",
+        "date": "21 Temmuz 2026",
+        "datetime": "2026-07-21",
+        "summary": "Lulu 1.2, evcil hayvan bakımını daha kolay yönetebilmeniz için baştan sona yenilendi. Yeni Bakım merkezi, geliştirilmiş ana sayfa ve iPad uyumlu tasarımla ihtiyacınız olan her şey artık daha düzenli ve erişilebilir.",
+        "changes": [
+          "Günlük işlemleri, hatırlatıcıları ve sağlık kayıtlarını bir araya getiren yeni Bakım merkezi",
+          "Evcil hayvanınızın güncel durumunu daha hızlı görebileceğiniz yenilenmiş ana sayfa",
+          "iPhone ve iPad için geliştirilmiş responsive tasarım",
+          "Aile paylaşımına artık Profil üzerinden daha kolay erişim",
+          "Daha yüksek kontrast, gelişmiş VoiceOver desteği ve daha büyük dokunma alanları",
+          "Lulu Plus için yeni aylık abonelik seçeneği",
+          "Daha tutarlı yükleme, hata ve boş durum ekranları",
+          "Genel performans, güvenlik ve kullanıcı deneyimi iyileştirmeleri"
+        ]
+      },
+      {
+        "version": "Lulu 1.1",
+        "title": "Lulu artık Türkçe",
+        "date": "17 Temmuz 2026",
+        "datetime": "2026-07-17",
+        "summary": "Lulu 1.1 ile uygulamaya tam Türkçe dil desteği eklendi. İlk kurulumdan günlük kullanıma kadar pek çok alan daha güvenilir ve anlaşılır hale getirildi.",
+        "changes": [
+          "Uygulamanın tamamına Türkçe dil desteği",
+          "İngilizce, Almanca ve Türkçe mağaza desteği",
+          "Lulu Plus planları ve faturalandırma bilgilerinde daha açık açıklamalar",
+          "Seçilen dile göre açılan Gizlilik Politikası ve Kullanım Koşulları",
+          "Ondalıklı kilo değerlerinde virgül ve nokta desteği",
+          "Bildirim izni ve ilk evcil hayvan oluşturma akışındaki hataların giderilmesi",
+          "Koyu tema ve ana sayfa görünümünde tutarlılık iyileştirmeleri",
+          "Genel kararlılık ve kullanıcı deneyimi geliştirmeleri"
+        ]
+      }
+    ]
+  }
+}

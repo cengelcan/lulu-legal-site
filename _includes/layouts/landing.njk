@@ -1,25 +1,31 @@
+{% set pageLang = lang or "en" %}
+{% set copy = home[pageLang] %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ pageLang }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lulu: Your Pet's Health, Beautifully Organized</title>
-  <meta name="description" content="Lulu helps you track your pet's daily mood, meals, symptoms, weight, reminders, and health history in one calm and simple journal.">
+  <title>{{ copy.title }}</title>
+  <meta name="description" content="{{ copy.description }}">
   <meta name="theme-color" content="#A998D6">
-  <link rel="canonical" href="https://lulu.pet/">
+  <link rel="canonical" href="{{ site.url }}{{ canonicalPath or ('/' + pageLang + '/') }}">
+  <link rel="alternate" hreflang="en" href="{{ site.url }}/en/">
+  <link rel="alternate" hreflang="de" href="{{ site.url }}/de/">
+  <link rel="alternate" hreflang="tr" href="{{ site.url }}/tr/">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://lulu.pet/">
-  <meta property="og:title" content="Lulu: Your Pet's Health, Beautifully Organized">
-  <meta property="og:description" content="Track daily check-ins, health logs, weight, reminders, and vet-friendly reports in one calm pet health journal.">
-  <meta property="og:image" content="https://lulu.pet/images/ss/Track%20Daily%20care.png">
+  <meta property="og:url" content="{{ site.url }}{{ canonicalPath or ('/' + pageLang + '/') }}">
+  <meta property="og:title" content="{{ copy.title }}">
+  <meta property="og:description" content="{{ copy.description }}">
+  <meta property="og:image" content="{{ site.url }}{{ copy.screenshots.hero.src }}">
   <meta property="og:site_name" content="Lulu">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Lulu: Your Pet's Health, Beautifully Organized">
-  <meta name="twitter:description" content="Track daily check-ins, health logs, weight, reminders, and vet-friendly reports in one calm pet health journal.">
-  <meta name="twitter:image" content="https://lulu.pet/images/ss/Track%20Daily%20care.png">
+  <meta name="twitter:title" content="{{ copy.title }}">
+  <meta name="twitter:description" content="{{ copy.description }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ copy.screenshots.hero.src }}">
 
   <link rel="stylesheet" href="/css/style.css">
 </head>

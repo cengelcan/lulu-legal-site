@@ -1,8 +1,14 @@
 {% set pageLang = lang or "en" %}
 {% set ui = translations[pageLang] %}
+{% set currentSlug = pageSlug or legalSlug or "home" %}
+{% if currentSlug == "home" %}
+  {% set localizedSuffix = "" %}
+{% else %}
+  {% set localizedSuffix = currentSlug + "/" %}
+{% endif %}
 <header class="site-header">
   <div class="header-inner">
-    <a href="/" class="brand" aria-label="{{ ui.homeLabel }}">
+    <a href="/{{ pageLang }}/" class="brand" aria-label="{{ ui.homeLabel }}">
       <span class="logo-frame logo-frame--header">
         <img class="brand-logo" src="/lulu-logo.svg" alt="" width="30" height="30">
       </span>
@@ -17,9 +23,20 @@
           <a href="/{{ pageLang }}/terms/" class="site-nav__link"{% if navActive == "terms" %} aria-current="page"{% endif %}>{{ ui.terms }}</a>
         </li>
         <li>
-          <a href="/support/" class="site-nav__link"{% if navActive == "support" %} aria-current="page"{% endif %}>{{ ui.support }}</a>
+          <a href="/{{ pageLang }}/updates/" class="site-nav__link"{% if navActive == "updates" %} aria-current="page"{% endif %}>{{ ui.updates }}</a>
+        </li>
+        <li>
+          <a href="/{{ pageLang }}/support/" class="site-nav__link"{% if navActive == "support" %} aria-current="page"{% endif %}>{{ ui.support }}</a>
         </li>
       </ul>
     </nav>
+    <details class="header-language-switcher">
+      <summary aria-label="{{ ui.languageLabel }}"><span>{{ pageLang | upper }}</span></summary>
+      <nav class="header-language-menu" aria-label="{{ ui.languageLabel }}">
+        <a href="/en/{{ localizedSuffix }}" lang="en" hreflang="en"{% if pageLang == "en" %} aria-current="page"{% endif %}>English <span>EN</span></a>
+        <a href="/de/{{ localizedSuffix }}" lang="de" hreflang="de"{% if pageLang == "de" %} aria-current="page"{% endif %}>Deutsch <span>DE</span></a>
+        <a href="/tr/{{ localizedSuffix }}" lang="tr" hreflang="tr"{% if pageLang == "tr" %} aria-current="page"{% endif %}>Türkçe <span>TR</span></a>
+      </nav>
+    </details>
   </div>
 </header>

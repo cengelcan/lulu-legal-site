@@ -1,0 +1,170 @@
+{
+  "en": {
+    "title": "Lulu: Your Pet's Health, Beautifully Organized",
+    "description": "Lulu helps you track your pet's daily mood, meals, symptoms, weight, reminders, and health history in one calm and simple journal.",
+    "eyebrow": "Pet Health Journal",
+    "heading": "Your pet's health, beautifully organized.",
+    "lead": "Lulu helps you track your pet's daily mood, meals, symptoms, weight, reminders, and health history in one calm and simple journal.",
+    "downloadAria": "Download Lulu on the App Store",
+    "downloadEyebrow": "Download on the",
+    "downloadTitle": "App Store",
+    "trust": "Designed for pet parents. Not a replacement for veterinary advice.",
+    "heroAlt": "Lulu home screen with daily check-ins, health trends, and quick actions",
+    "screenshots": {
+      "hero": { "src": "/images/screenshots/en/home.png", "alt": "Lulu home screen showing the next care item and a health overview" },
+      "previews": [
+        { "src": "/images/screenshots/en/check-in.png", "alt": "Lulu daily check-in screen showing completed health checks" },
+        { "src": "/images/screenshots/en/records.png", "alt": "Lulu records screen for vet visits, vaccines, medication, symptoms, weight, surgery, and test results" },
+        { "src": "/images/screenshots/en/reminders.png", "alt": "Lulu reminders screen showing upcoming and completed care reminders" },
+        { "src": "/images/screenshots/en/family.png", "alt": "Lulu Family screen showing shared pets and family members" }
+      ]
+    },
+    "featuresTitle": "Everything you need for everyday pet care",
+    "featuresIntro": "A calm journal that keeps the small details close, so you can focus on what matters most.",
+    "features": [
+      { "title": "Daily Check-ins", "text": "Log mood, appetite, energy, and quick notes in under a minute for a gentle daily rhythm with your pet." },
+      { "title": "Health & Symptom Logs", "text": "Record symptoms, medications, behavior changes, and observations with timestamps you can trust." },
+      { "title": "Weight Tracking", "text": "Track weight over time and spot gradual changes before they become harder to notice." },
+      { "title": "Reminders", "text": "Set gentle reminders for meals, medications, and vet appointments on your schedule." },
+      { "title": "Vet-friendly PDF Reports", "text": "Export a clear health history to share with your veterinarian before or during visits." },
+      { "title": "Multi-pet Support", "text": "Manage separate profiles for each cat or dog, each with their own journal and history." }
+    ],
+    "previewTitle": "A simple journal for everyday pet care.",
+    "previewIntro": "Log small changes before they become big concerns.",
+    "previewAlts": [
+      "Lulu health records screen for vet visits, vaccines, symptoms, and weight",
+      "Lulu My Pets screen showing multiple cat and dog profiles",
+      "Lulu Family screen for sharing pet profiles with household members"
+    ],
+    "whyTitle": "Why pet parents choose Lulu",
+    "whyIntro": "Small observations add up. Lulu helps you stay organized without adding stress.",
+    "reasons": [
+      { "title": "Notice patterns earlier", "text": "Daily logs make it easier to spot changes in mood, appetite, or behavior over time." },
+      { "title": "Keep everything in one place", "text": "Keep check-ins, symptoms, weight, and notes organized in a single calm journal." },
+      { "title": "Prepare better for vet visits", "text": "Walk in with dates, details, and context instead of a vague memory of last week." },
+      { "title": "Share clear health history when needed", "text": "Generate PDF reports you can review and share on your own terms." }
+    ],
+    "important": "Important:",
+    "disclaimer": "Lulu is not a medical device and does not provide veterinary diagnosis or treatment advice. Always consult a licensed veterinarian for medical concerns.",
+    "faqTitle": "Frequently asked questions",
+    "faqs": [
+      { "question": "Is Lulu a veterinary app?", "answer": "No. Lulu is a personal health journal for pet owners. It helps you track and organize information. It does not diagnose conditions or replace professional veterinary care." },
+      { "question": "Can I use Lulu for more than one pet?", "answer": "Yes. You can create separate profiles for each pet, each with its own check-ins, logs, and health history." },
+      { "question": "Can I export my pet's history?", "answer": "Yes. Lulu lets you generate PDF reports from your pet's journal data, which you can review and share using your device's sharing options." },
+      { "question": "Is my data private?", "answer": "Your data is stored securely and tied to your account. We do not sell your personal information.", "linkText": "See our Privacy Policy for full details." },
+      { "question": "Where can I download Lulu?", "answer": "Lulu is available for iPhone.", "appLinkText": "Download Lulu from the App Store." }
+    ]
+  },
+  "de": {
+    "title": "Lulu: Die Gesundheit deines Haustiers, übersichtlich organisiert",
+    "description": "Mit Lulu behältst du Stimmung, Mahlzeiten, Symptome, Gewicht, Erinnerungen und den Gesundheitsverlauf deines Haustiers in einem ruhigen, einfachen Tagebuch im Blick.",
+    "eyebrow": "Gesundheitstagebuch für Haustiere",
+    "heading": "Die Gesundheit deines Haustiers, schön organisiert.",
+    "lead": "Mit Lulu behältst du Stimmung, Mahlzeiten, Symptome, Gewicht, Erinnerungen und den Gesundheitsverlauf deines Haustiers in einem ruhigen, einfachen Tagebuch im Blick.",
+    "downloadAria": "Lulu im App Store laden",
+    "downloadEyebrow": "Laden im",
+    "downloadTitle": "App Store",
+    "trust": "Für Tierhalterinnen und Tierhalter entwickelt. Kein Ersatz für tierärztlichen Rat.",
+    "heroAlt": "Lulu-Startseite mit täglichen Check-ins, Gesundheitstrends und Schnellaktionen",
+    "screenshots": {
+      "hero": { "src": "/images/screenshots/de/home.png", "alt": "Deutsche Lulu-Startseite mit der nächsten Pflegeaufgabe und Gesundheitsübersicht" },
+      "previews": [
+        { "src": "/images/screenshots/de/check-in.png", "alt": "Deutscher Lulu-Check-In mit abgeschlossenen Gesundheitschecks" },
+        { "src": "/images/screenshots/de/records.png", "alt": "Deutsche Lulu-Einträge für Tierarzt, Impfungen, Medizin, Symptome, Gewicht, Operationen und Befunde" },
+        { "src": "/images/screenshots/de/reminders.png", "alt": "Deutsche Lulu-Erinnerungen mit anstehenden und abgeschlossenen Pflegeaufgaben" },
+        { "src": "/images/screenshots/de/family.png", "alt": "Deutsche Lulu-Familienansicht mit geteilten Haustieren und Mitgliedern" }
+      ]
+    },
+    "featuresTitle": "Alles für die tägliche Pflege deines Haustiers",
+    "featuresIntro": "Ein ruhiges Tagebuch für die kleinen Details, damit du dich auf das Wesentliche konzentrieren kannst.",
+    "features": [
+      { "title": "Tägliche Check-ins", "text": "Halte Stimmung, Appetit, Energie und kurze Notizen in weniger als einer Minute fest." },
+      { "title": "Gesundheits- und Symptomprotokolle", "text": "Erfasse Symptome, Medikamente, Verhaltensänderungen und Beobachtungen mit verlässlichen Zeitangaben." },
+      { "title": "Gewichtsverlauf", "text": "Verfolge das Gewicht im Zeitverlauf und erkenne schrittweise Veränderungen frühzeitig." },
+      { "title": "Erinnerungen", "text": "Lege sanfte Erinnerungen für Mahlzeiten, Medikamente und Tierarzttermine fest." },
+      { "title": "Tierarztfreundliche PDF-Berichte", "text": "Exportiere einen übersichtlichen Gesundheitsverlauf für den nächsten Tierarztbesuch." },
+      { "title": "Mehrere Haustiere", "text": "Verwalte eigene Profile und Verläufe für jede Katze und jeden Hund." }
+    ],
+    "previewTitle": "Ein einfaches Tagebuch für die tägliche Haustierpflege.",
+    "previewIntro": "Halte kleine Veränderungen fest, bevor daraus große Sorgen werden.",
+    "previewAlts": [
+      "Lulu-Gesundheitseinträge für Tierarztbesuche, Impfungen, Symptome und Gewicht",
+      "Lulu-Ansicht Meine Haustiere mit mehreren Katzen- und Hundeprofilen",
+      "Lulu-Familienansicht zum Teilen von Haustierprofilen"
+    ],
+    "whyTitle": "Warum Tierhalter Lulu wählen",
+    "whyIntro": "Kleine Beobachtungen ergeben ein Gesamtbild. Lulu sorgt für Ordnung, ohne zusätzlichen Stress.",
+    "reasons": [
+      { "title": "Muster früher erkennen", "text": "Tägliche Einträge machen Veränderungen bei Stimmung, Appetit oder Verhalten im Laufe der Zeit sichtbar." },
+      { "title": "Alles an einem Ort", "text": "Check-ins, Symptome, Gewicht und Notizen bleiben in einem ruhigen Tagebuch organisiert." },
+      { "title": "Besser auf Tierarztbesuche vorbereitet", "text": "Nimm konkrete Daten, Details und Zusammenhänge mit statt einer vagen Erinnerung." },
+      { "title": "Gesundheitsverlauf gezielt teilen", "text": "Erstelle PDF-Berichte, die du prüfen und nach deinen Vorstellungen teilen kannst." }
+    ],
+    "important": "Wichtig:",
+    "disclaimer": "Lulu ist kein Medizinprodukt und bietet weder tierärztliche Diagnosen noch Behandlungsempfehlungen. Wende dich bei medizinischen Fragen immer an eine Tierärztin oder einen Tierarzt.",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faqs": [
+      { "question": "Ist Lulu eine Tierarzt-App?", "answer": "Nein. Lulu ist ein persönliches Gesundheitstagebuch für Tierhalter. Es hilft dir, Informationen festzuhalten und zu organisieren, stellt aber keine Diagnosen und ersetzt keine tierärztliche Versorgung." },
+      { "question": "Kann ich Lulu für mehrere Haustiere verwenden?", "answer": "Ja. Du kannst für jedes Haustier ein eigenes Profil mit Check-ins, Einträgen und Gesundheitsverlauf erstellen." },
+      { "question": "Kann ich den Verlauf meines Haustiers exportieren?", "answer": "Ja. Mit Lulu kannst du PDF-Berichte aus den Tagebuchdaten erstellen, prüfen und über dein Gerät teilen." },
+      { "question": "Sind meine Daten geschützt?", "answer": "Deine Daten werden sicher gespeichert und sind mit deinem Konto verknüpft. Wir verkaufen keine personenbezogenen Daten.", "linkText": "Alle Einzelheiten findest du in unserer Datenschutzerklärung." },
+      { "question": "Wo kann ich Lulu laden?", "answer": "Lulu ist für iPhone verfügbar.", "appLinkText": "Lulu im App Store laden." }
+    ]
+  },
+  "tr": {
+    "title": "Lulu: Evcil Hayvanınızın Sağlığı, Düzenli ve Anlaşılır",
+    "description": "Lulu; evcil hayvanınızın günlük ruh hâlini, öğünlerini, belirtilerini, kilosunu, hatırlatıcılarını ve sağlık geçmişini sakin ve sade bir günlükte takip etmenize yardımcı olur.",
+    "eyebrow": "Evcil Hayvan Sağlık Günlüğü",
+    "heading": "Evcil hayvanınızın sağlığı, özenle düzenlendi.",
+    "lead": "Lulu; evcil hayvanınızın günlük ruh hâlini, öğünlerini, belirtilerini, kilosunu, hatırlatıcılarını ve sağlık geçmişini sakin ve sade bir günlükte takip etmenize yardımcı olur.",
+    "downloadAria": "Lulu’yu App Store’dan indirin",
+    "downloadEyebrow": "Şuradan indirin:",
+    "downloadTitle": "App Store",
+    "trust": "Evcil hayvan sahipleri için tasarlandı. Veteriner tavsiyesinin yerini tutmaz.",
+    "heroAlt": "Günlük kontrolleri, sağlık eğilimlerini ve hızlı işlemleri gösteren Lulu ana sayfası",
+    "screenshots": {
+      "hero": { "src": "/images/screenshots/tr/home.png", "alt": "Sıradaki bakım işini ve sağlık özetini gösteren Türkçe Lulu ana sayfası" },
+      "previews": [
+        { "src": "/images/screenshots/tr/check-in.png", "alt": "Tamamlanan günlük sağlık kontrollerini gösteren Türkçe Lulu Check-In ekranı" },
+        { "src": "/images/screenshots/tr/records.png", "alt": "Veteriner, aşı, ilaç, semptom, kilo, operasyon ve tetkik kayıtlarını gösteren Türkçe Lulu Kayıtlar ekranı" },
+        { "src": "/images/screenshots/tr/reminders.png", "alt": "Yaklaşan ve tamamlanan bakım hatırlatıcılarını gösteren Türkçe Lulu Hatırlatıcılar ekranı" },
+        { "src": "/images/screenshots/tr/family.png", "alt": "Paylaşılan petleri ve aile üyelerini gösteren Türkçe Lulu Family ekranı" }
+      ]
+    },
+    "featuresTitle": "Günlük evcil hayvan bakımı için ihtiyacınız olan her şey",
+    "featuresIntro": "Küçük ayrıntıları elinizin altında tutan sakin bir günlük; böylece en önemli olana odaklanabilirsiniz.",
+    "features": [
+      { "title": "Günlük Kontroller", "text": "Ruh hâli, iştah, enerji ve kısa notları bir dakikadan kısa sürede kaydedin." },
+      { "title": "Sağlık ve Belirti Kayıtları", "text": "Belirtileri, ilaçları, davranış değişikliklerini ve gözlemleri güvenilir zaman bilgileriyle kaydedin." },
+      { "title": "Kilo Takibi", "text": "Kiloyu zaman içinde takip edin ve kademeli değişiklikleri erkenden fark edin." },
+      { "title": "Hatırlatıcılar", "text": "Öğünler, ilaçlar ve veteriner randevuları için programınıza uygun hatırlatıcılar oluşturun." },
+      { "title": "Veterinere Uygun PDF Raporları", "text": "Veteriner ziyaretleri öncesinde veya sırasında paylaşmak için anlaşılır bir sağlık geçmişi oluşturun." },
+      { "title": "Birden Fazla Evcil Hayvan", "text": "Her kedi veya köpek için kendi günlüğü ve geçmişi bulunan ayrı profiller yönetin." }
+    ],
+    "previewTitle": "Günlük evcil hayvan bakımı için sade bir günlük.",
+    "previewIntro": "Küçük değişiklikleri büyük endişelere dönüşmeden kaydedin.",
+    "previewAlts": [
+      "Veteriner ziyaretleri, aşılar, belirtiler ve kilo için Lulu sağlık kayıtları ekranı",
+      "Birden fazla kedi ve köpek profilini gösteren Lulu Evcil Hayvanlarım ekranı",
+      "Evcil hayvan profillerini hane üyeleriyle paylaşmaya yarayan Lulu Aile ekranı"
+    ],
+    "whyTitle": "Evcil hayvan sahipleri neden Lulu’yu tercih ediyor?",
+    "whyIntro": "Küçük gözlemler zamanla anlam kazanır. Lulu, ek stres yaratmadan düzenli kalmanıza yardımcı olur.",
+    "reasons": [
+      { "title": "Örüntüleri daha erken fark edin", "text": "Günlük kayıtlar ruh hâli, iştah veya davranıştaki değişiklikleri zaman içinde görmeyi kolaylaştırır." },
+      { "title": "Her şeyi tek yerde tutun", "text": "Günlük kontrolleri, belirtileri, kiloyu ve notları tek bir sakin günlükte düzenleyin." },
+      { "title": "Veteriner ziyaretlerine daha iyi hazırlanın", "text": "Geçen haftaya dair belirsiz anılar yerine tarihleri, ayrıntıları ve bağlamı yanınızda götürün." },
+      { "title": "Sağlık geçmişini gerektiğinde paylaşın", "text": "İnceleyebileceğiniz ve kendi koşullarınızla paylaşabileceğiniz PDF raporları oluşturun." }
+    ],
+    "important": "Önemli:",
+    "disclaimer": "Lulu bir tıbbi cihaz değildir; veteriner tanısı veya tedavi tavsiyesi sunmaz. Sağlıkla ilgili endişeleriniz için her zaman lisanslı bir veterinere danışın.",
+    "faqTitle": "Sık sorulan sorular",
+    "faqs": [
+      { "question": "Lulu bir veteriner uygulaması mı?", "answer": "Hayır. Lulu, evcil hayvan sahipleri için kişisel bir sağlık günlüğüdür. Bilgileri takip edip düzenlemenize yardımcı olur; tanı koymaz ve profesyonel veteriner bakımının yerini tutmaz." },
+      { "question": "Lulu’yu birden fazla evcil hayvan için kullanabilir miyim?", "answer": "Evet. Her evcil hayvan için kendi günlük kontrolleri, kayıtları ve sağlık geçmişi bulunan ayrı profiller oluşturabilirsiniz." },
+      { "question": "Evcil hayvanımın geçmişini dışa aktarabilir miyim?", "answer": "Evet. Lulu, evcil hayvanınızın günlük verilerinden PDF raporları oluşturup incelemenize ve cihazınızın paylaşım seçenekleriyle paylaşmanıza imkân verir." },
+      { "question": "Verilerim gizli mi?", "answer": "Verileriniz güvenli biçimde saklanır ve hesabınıza bağlıdır. Kişisel bilgilerinizi satmayız.", "linkText": "Tüm ayrıntılar için Gizlilik Politikamıza bakın." },
+      { "question": "Lulu’yu nereden indirebilirim?", "answer": "Lulu iPhone için kullanılabilir.", "appLinkText": "Lulu’yu App Store’dan indirin." }
+    ]
+  }
+}

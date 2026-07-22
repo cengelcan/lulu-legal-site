@@ -1,0 +1,12 @@
+{% set copy = support[pageLang] %}
+<div class="container support-page">
+  <div class="page-header"><span class="logo-frame logo-frame--page"><img class="page-logo page-logo--legal" src="/lulu-logo.svg" alt="{{ ui.logoAlt }}" width="44" height="44"></span><div><h1>{{ copy.title }}</h1><p class="meta">{{ copy.meta }}</p></div></div>
+  <div class="disclaimer"><strong>{{ copy.important }}</strong> {{ copy.disclaimer }}</div>
+  <p>{{ copy.intro }}</p>
+  <h2>{{ copy.contactTitle }}</h2>
+  <div class="contact-card"><p>{{ copy.contactIntro }}</p><p><strong>{{ copy.emailLabel }}</strong> <a class="contact-email" href="mailto:support@lulu.pet">support@lulu.pet</a></p><p>{{ copy.response }}</p></div>
+  <h2>{{ copy.topicsTitle }}</h2>
+  <div class="topic-cards">{% for topic in copy.topics %}<article class="topic-card"><h3>{{ topic.title }}</h3><p>{{ topic.text }}{% if topic.privacyLink %} <a href="/{{ pageLang }}/privacy-policy/">{{ topic.privacyLink }}</a>{% endif %}</p></article>{% endfor %}</div>
+  <h2>{{ copy.legalTitle }}</h2>
+  <ul><li><a href="/{{ pageLang }}/privacy-policy/">{{ ui.privacy }}</a></li><li><a href="/{{ pageLang }}/terms/">{{ ui.terms }}</a></li></ul>
+</div>

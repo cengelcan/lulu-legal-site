@@ -1,0 +1,71 @@
+{
+  "en": {
+    "title": "Support",
+    "description": "Get help with Lulu: Pet Health Journal.",
+    "meta": "Support for Lulu: Pet Health Journal",
+    "important": "Important:",
+    "disclaimer": "Lulu is not a veterinary service and does not provide diagnosis, treatment, or professional veterinary advice. For medical concerns about your pet, please contact a licensed veterinarian.",
+    "intro": "Lulu is a pet health journal for cat and dog owners. Use it to manage everyday care, track health records, and keep your pet’s history organized.",
+    "contactTitle": "Contact us",
+    "contactIntro": "For app support, account questions, privacy requests, account deletion help, or feedback:",
+    "emailLabel": "Email:",
+    "response": "We aim to respond within a few business days.",
+    "topicsTitle": "Common topics",
+    "topics": [
+      { "title": "Account & sign-in", "text": "Lulu uses secure authentication through Supabase. If you have trouble signing in, try resetting your password through the app’s sign-in flow. If problems continue, email us from the address associated with your account." },
+      { "title": "Deleting your account", "text": "You can delete your account from within Lulu. This removes your account and associated journal data from our active services, subject to reasonable processing time and limited retention for backups, security, or legal requirements. If you cannot access the app, email us for help." },
+      { "title": "Pet profiles & health records", "text": "Create separate profiles for your pets and keep daily care, reminders, weight, symptoms, medications, appointments, and other health records organized in one place." },
+      { "title": "PDF reports", "text": "You can generate PDF reports from your pet’s journal data and share them using your device’s sharing options. Please review reports before sharing and choose recipients carefully." },
+      { "title": "Notifications & reminders", "text": "Lulu uses your device’s local notification system for reminders you enable. You can change notification access in your device settings. Reminders are for convenience and are not medical alerts." },
+      { "title": "Data & privacy", "text": "Lulu does not sell user data or use third-party advertising. Read our Privacy Policy for details about the information we handle and how it is stored.", "privacyLink": "Privacy Policy" },
+      { "title": "Lulu Plus", "text": "Lulu Plus is available through the plans shown in the app. Prices, billing periods, and available options are displayed before purchase. App Store subscriptions can be managed through your Apple ID settings." }
+    ],
+    "legalTitle": "Legal"
+  },
+  "de": {
+    "title": "Support",
+    "description": "Hilfe zu Lulu: Pet Health Journal.",
+    "meta": "Support für Lulu: Pet Health Journal",
+    "important": "Wichtig:",
+    "disclaimer": "Lulu ist kein tierärztlicher Dienst und bietet weder Diagnosen noch Behandlungen oder professionelle tierärztliche Beratung. Wende dich bei medizinischen Fragen zu deinem Haustier an eine Tierärztin oder einen Tierarzt.",
+    "intro": "Lulu ist ein Gesundheitstagebuch für Katzen- und Hundehalter. Organisiere die tägliche Pflege, Gesundheitsunterlagen und den Verlauf deines Haustiers an einem Ort.",
+    "contactTitle": "Kontakt",
+    "contactIntro": "Bei Fragen zur App, zum Konto, zum Datenschutz, zur Kontolöschung oder für Feedback:",
+    "emailLabel": "E-Mail:",
+    "response": "Wir antworten in der Regel innerhalb weniger Werktage.",
+    "topicsTitle": "Häufige Themen",
+    "topics": [
+      { "title": "Konto & Anmeldung", "text": "Lulu verwendet eine sichere Authentifizierung über Supabase. Wenn du dich nicht anmelden kannst, setze dein Passwort über den Anmeldeablauf der App zurück. Besteht das Problem weiter, schreibe uns von der mit deinem Konto verknüpften Adresse." },
+      { "title": "Konto löschen", "text": "Du kannst dein Konto direkt in Lulu löschen. Dabei werden dein Konto und die zugehörigen Tagebuchdaten aus unseren aktiven Diensten entfernt; vorbehaltlich einer angemessenen Bearbeitungszeit und begrenzter Aufbewahrung für Sicherungskopien, Sicherheit oder gesetzliche Anforderungen. Wenn du keinen Zugriff auf die App hast, helfen wir dir per E-Mail." },
+      { "title": "Haustierprofile & Gesundheitseinträge", "text": "Erstelle eigene Profile für deine Haustiere und organisiere tägliche Pflege, Erinnerungen, Gewicht, Symptome, Medikamente, Termine und weitere Gesundheitseinträge an einem Ort." },
+      { "title": "PDF-Berichte", "text": "Du kannst PDF-Berichte aus den Tagebuchdaten deines Haustiers erstellen und über dein Gerät teilen. Prüfe Berichte vor dem Teilen und wähle Empfänger sorgfältig aus." },
+      { "title": "Benachrichtigungen & Erinnerungen", "text": "Lulu verwendet für aktivierte Erinnerungen das lokale Benachrichtigungssystem deines Geräts. Den Zugriff kannst du in den Geräteeinstellungen ändern. Erinnerungen dienen nur der Organisation und sind keine medizinischen Warnungen." },
+      { "title": "Daten & Datenschutz", "text": "Lulu verkauft keine Nutzerdaten und verwendet keine Werbung von Drittanbietern. Einzelheiten zu den verarbeiteten Informationen und ihrer Speicherung findest du in unserer Datenschutzerklärung.", "privacyLink": "Datenschutzerklärung" },
+      { "title": "Lulu Plus", "text": "Lulu Plus ist über die in der App angezeigten Tarife erhältlich. Preise, Abrechnungszeiträume und verfügbare Optionen werden vor dem Kauf angezeigt. App-Store-Abonnements verwaltest du in den Einstellungen deiner Apple-ID." }
+    ],
+    "legalTitle": "Rechtliches"
+  },
+  "tr": {
+    "title": "Destek",
+    "description": "Lulu: Evcil Hayvan Sağlık Günlüğü için yardım alın.",
+    "meta": "Lulu: Evcil Hayvan Sağlık Günlüğü desteği",
+    "important": "Önemli:",
+    "disclaimer": "Lulu bir veterinerlik hizmeti değildir; tanı, tedavi veya profesyonel veteriner tavsiyesi sunmaz. Evcil hayvanınızla ilgili sağlık endişeleri için lisanslı bir veterinere başvurun.",
+    "intro": "Lulu, kedi ve köpek sahipleri için bir sağlık günlüğüdür. Günlük bakımı yönetin, sağlık kayıtlarını takip edin ve evcil hayvanınızın geçmişini düzenli tutun.",
+    "contactTitle": "Bize ulaşın",
+    "contactIntro": "Uygulama desteği, hesap soruları, gizlilik talepleri, hesap silme yardımı veya geri bildirim için:",
+    "emailLabel": "E-posta:",
+    "response": "Birkaç iş günü içinde yanıt vermeyi hedefliyoruz.",
+    "topicsTitle": "Yaygın konular",
+    "topics": [
+      { "title": "Hesap ve giriş", "text": "Lulu, Supabase üzerinden güvenli kimlik doğrulama kullanır. Giriş yapmakta sorun yaşıyorsanız uygulamadaki giriş akışından şifrenizi sıfırlamayı deneyin. Sorun sürerse hesabınızla ilişkili e-posta adresinden bize yazın." },
+      { "title": "Hesabınızı silme", "text": "Hesabınızı Lulu içinden silebilirsiniz. Bu işlem; makul işlem süresi ile yedekleme, güvenlik veya yasal gereklilikler için sınırlı saklama koşullarına tabi olarak hesabınızı ve ilişkili günlük verilerini aktif hizmetlerimizden kaldırır. Uygulamaya erişemiyorsanız e-postayla yardım isteyebilirsiniz." },
+      { "title": "Evcil hayvan profilleri ve sağlık kayıtları", "text": "Evcil hayvanlarınız için ayrı profiller oluşturun; günlük bakım, hatırlatıcılar, kilo, belirtiler, ilaçlar, randevular ve diğer sağlık kayıtlarını tek yerde düzenleyin." },
+      { "title": "PDF raporları", "text": "Evcil hayvanınızın günlük verilerinden PDF raporları oluşturabilir ve cihazınızın paylaşım seçenekleriyle paylaşabilirsiniz. Raporları paylaşmadan önce inceleyin ve alıcıları dikkatle seçin." },
+      { "title": "Bildirimler ve hatırlatıcılar", "text": "Lulu, etkinleştirdiğiniz hatırlatıcılar için cihazınızın yerel bildirim sistemini kullanır. Bildirim erişimini cihaz ayarlarından değiştirebilirsiniz. Hatırlatıcılar kolaylık sağlamak içindir; tıbbi uyarı değildir." },
+      { "title": "Veriler ve gizlilik", "text": "Lulu kullanıcı verilerini satmaz ve üçüncü taraf reklamları kullanmaz. İşlediğimiz bilgiler ve bunların nasıl saklandığı hakkında ayrıntılı bilgi için Gizlilik Politikamızı okuyun.", "privacyLink": "Gizlilik Politikası" },
+      { "title": "Lulu Plus", "text": "Lulu Plus, uygulamada gösterilen planlar üzerinden sunulur. Fiyatlar, faturalandırma dönemleri ve kullanılabilir seçenekler satın alma öncesinde gösterilir. App Store aboneliklerini Apple Kimliği ayarlarınızdan yönetebilirsiniz." }
+    ],
+    "legalTitle": "Yasal"
+  }
+}

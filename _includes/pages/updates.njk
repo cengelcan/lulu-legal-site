@@ -1,0 +1,20 @@
+{% set copy = updates[pageLang] %}
+<div class="container updates-page">
+  <header class="updates-hero">
+    <p class="eyebrow">{{ copy.eyebrow }}</p>
+    <h1>{{ copy.heading }}</h1>
+    <p>{{ copy.intro }}</p>
+  </header>
+  <div class="release-list">
+    {% for release in copy.versions %}
+    <article class="release-card">
+      <div class="release-card__header">
+        <div><span class="release-version">{{ release.version }}</span><h2>{{ release.title }}</h2></div>
+        <time datetime="{{ release.datetime }}">{{ release.date }}</time>
+      </div>
+      <p class="release-summary">{{ release.summary }}</p>
+      <ul class="release-changes">{% for change in release.changes %}<li>{{ change }}</li>{% endfor %}</ul>
+    </article>
+    {% endfor %}
+  </div>
+</div>
